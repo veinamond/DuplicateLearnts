@@ -1,0 +1,8 @@
+        #!/bin/sh
+
+cd sources/simp
+make clean
+make rs
+cp glucose_static ../../bin/Maple_LCM_Dist_dl-v2-r500-lbdlim14s
+
+
