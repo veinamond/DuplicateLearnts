@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd sources/simp
+make clean
+make rs
+cp glucose_static ../../bin/MapleLCMDistChronoBT-dl-v2-r500-lbdlim14
+
+
