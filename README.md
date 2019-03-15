@@ -16,6 +16,7 @@ http://sat2018.forsyte.tuwien.ac.at/solvers/main_and_glucose_hack/MapleLCMDistCh
 https://baldur.iti.kit.edu/sat-competition-2017/solvers/main/Maple_LCM_Dist.zip
 
 To patch solvers unzip the sources to a folder, copy patch file to the same folder and run 
-patch -p0 < ./<patch_filename>
+
+>patch -p0 < ./<patch_filename>
 
 After this to build each solver it is sufficient to launch ./starexec_build (it might be necessary to chmod +x ./starexec_build first).
